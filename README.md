@@ -9,6 +9,9 @@
 - PCA for Dimensionality Reduction: PCA reduces the data from its original high-dimensional space to 50 dimensions. This step simplifies the data while retaining most of the important information.
 - t-SNE for Further Dimensionality Reduction:t-SNE further reduces the 50-dimensional data to 2 dimensions. This step is primarily for visualization, making it easier to plot and understand the data.
 - KMeans Clustering:KMeans algorithm clusters the 2D t-SNE data into the specified number of clusters.
+## Epigenetic Modifications Prediction
+- Objective: Create an algorithm to predict DNA methylation sites using machine learning models.
+- Idea: Utilizing convolutional neural networks (CNNs) to analyze DNA sequences and predict methylation status based on sequence context.
 ## References
 - [bionumpy website](https://bionumpy.github.io/bionumpy/)
 - [Nature Article](https://www.nature.com/articles/s41597-019-0351-8)
