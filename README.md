@@ -3,7 +3,7 @@
 ## bionumpy
 
 - Idea is to develop a novel clustering algorithm for single-cell RNA sequencing data to identify distinct cell populations and to Combine dimensionality reduction techniques (e.g., UMAP, t-SNE) with    deep learning-based clustering.
-## Approach
+## Single-Cell RNA-Seq Data Analysis
 - Importing all necessary libraries
 - Defining a clustering function single_cell_clustering that takes the data and the number of clusters as input
 - PCA for Dimensionality Reduction: PCA reduces the data from its original high-dimensional space to 50 dimensions. This step simplifies the data while retaining most of the important information.
